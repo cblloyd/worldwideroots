@@ -1,9 +1,759 @@
-body{
-  margin: 0;
+@-ms-viewport{
+  width: device-width;
+}
+/* NOTE: HEADER MENU WITH NAV AND LOGO */
+.navbar{
+	font-family: 'Overpass Mono', monospace;
+	font-size: 1.5rem;
+	color:#000;
+	background-color: #FFF;
 }
 
-h2{
-  font-family: 'Ranga', cursive;
-  text-align: center;
-  font-size: 35px;
+.navbar .container-fluid{
+	padding: 0px;
 }
+
+.navbar-nav{
+	width: 100%;
+	border:2px solid #000;
+}
+
+.navbar-right{
+	text-align: center;
+
+}
+.navbar-default .navbar-toggle{
+	border-color: #000;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #000;
+}
+
+.navbar-toggle{
+	border: solid 2px #000;
+}
+
+.container-fluid{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.navbar-brand{
+	height: 150px;
+	padding-right:  40px;
+}
+
+.navbar-brand img{
+	height: 100%;
+}
+
+.navbar-collapse{
+	border: none;
+	padding: 0px;
+	border-color: #000;
+
+}
+
+.navbar-button{
+	padding: 0px;
+}
+
+
+.navbar-collapse ul{
+	margin: 0px;
+	font-size: 1.2rem;
+}
+
+.navbar-header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.navbar-default .navbar-nav ul li a{
+	color: #000;
+}
+
+.navbar-default .navbar-nav ul li:hover{
+	color: #fff;
+	background-color: #000;
+}
+
+.navbar-default .navbar-nav ul li a:hover{
+	color: #fff;
+}
+
+.collapsed{
+	height: 100px;
+	padding-left: 10px;
+}
+
+.icon-bar{
+	padding-top: 5px;
+	margin: 0 auto;
+}
+
+.collapsed .navbar-header{
+	width: 60%;
+}
+
+	#mc_embed_signup{
+
+	font-family: 'Ubuntu', sans-serif;
+		 }
+
+		 #mc-embedded-subscribe-form{
+
+
+		 }
+
+
+#myCarousel{
+background-color: #000;
+padding-top:150px;
+
+}
+
+
+
+#myCarousel img{
+width: 100%;
+
+}
+
+
+.full-wrapper{
+	padding-top: 50px;
+}
+
+.carousel-inner{
+	max-height: 600px;
+}
+
+#about{
+	padding-top: 200px;
+	background-color: #
+}
+
+.about-header{
+	font-size: 3rem;
+	font-family: 'Overpass Mono', monospace;
+	text-align: center;
+}
+
+.about-inner{
+	display: flex;
+	flex-direction: column;
+	margin-top: -100px;
+}
+
+.about-company{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.about-bio{
+	background-color: #000;
+	color:#fff;
+	font-family: 'Ubuntu', sans-serif;
+	width:70%;
+	margin:0 auto;
+}
+
+.kayabio h1{
+	font-size: 2rem;
+	text-align: center;
+}
+.company-about{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.company-about-inner{
+
+	background-color: #000;
+	color:#fff;
+	font-family: 'Ubuntu', sans-serif;
+	width:70%;
+	margin:0 auto;
+}
+
+.company-about-inner h1{
+	font-size: 2rem;
+	text-align: center;
+	margin-top: -20px;
+	padding-bottom: 10px;
+}
+
+.company-about-inner p{
+	font-size: .8rem;
+	text-align: left;
+	line-height: 1.4em;
+	width:70%;
+	margin:0 auto;
+	padding-bottom: 30px;
+}
+
+.kayabio h4{
+	font-size: 1rem;
+	text-align: center;
+}
+
+.kayabio p{
+font-size: .8rem;
+margin: 0 auto;
+	padding: 5px;
+	line-height: 1.4em;
+	width:70%;
+	padding-bottom: 15px;
+}
+
+.about-pics{
+	background-color: #fff;
+	display: flex;
+	flex-direction: row;
+
+}
+
+figure {
+	width: 30%
+}
+
+figure img{
+	width: 100%;
+	padding: 10px;
+}
+
+/* NOTE: MENU SEPERATOR HEADER TITLE THING */
+.page-head{
+margin-top: -200px;
+background-color: #000;
+color: #fff;
+font-family: 'Overpass Mono', monospace;
+font-size: 2.4rem;
+text-align: center;
+}
+
+
+/* NOTE: top menu */
+
+#currentmenu{
+	padding-top: 200px;
+}
+
+#currentmenu h1{
+	border-top: solid 10px #fff;
+}
+
+#currentmenu p{
+	font-size: .7rem;
+}
+
+.menu-right{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.seed-menu-top{
+width: 100%;
+display: flex;
+justify-content: center;
+padding: 0px;
+text-align: center;
+}
+.seedlines{
+display: flex;
+align-items: center;
+width: 100%;
+}
+.seedlines div{
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content:space-around;
+padding: 0px;
+width: 20%;
+}
+.seedlines div h1{
+	font-size:1.2rem;
+	border-bottom: 2px solid black;
+
+	text-align: center;
+}
+.seedlines div img{
+height: 60%;
+display: flex;
+align-items: center;
+width: 50%;
+margin: 0 auto;
+}
+
+/* NOTE: bottom menu */
+
+
+.thumbnail{
+border: solid 1px #fff;
+
+}
+
+.thumbnail img{
+
+}
+
+ .thumbnail .caption{
+background-color: #fff;
+padding: 0px;
+display: flex;
+flex-direction: column;
+text-align: center;
+height: 40%;
+}
+
+
+.thumbnail .caption .btn{
+border: 2px solid #000;
+}
+.thumbnail .caption h1{
+	border-bottom: 2px solid #000;
+	width: 80%;
+	margin:0 auto;
+	font-size: 1.2rem;
+	padding: 10px 0px;
+}
+
+.thumbnail h4{
+	font-size: 1rem;
+	padding: 5px;
+}
+
+.thumbnail a{
+	background-color: #fff;
+	color: #000;
+	font-size: .6rem;
+	border: none;
+	border-radius: 0px;
+}
+
+.thumbnail a:hover{
+	background-color: #000;
+	color: #fff;
+}
+
+/* NOTE: COFFEE GROUP STYLES */
+ .koffee-group{
+ font-family: 'Patua One', cursive;
+ }
+
+ .seedlines.koffee{
+	 border-color: brown;
+ }
+
+ .group h1 h4{
+	 text-align: left;
+ }
+
+
+ .koffee-group .group .caption{
+ background-color: #5b310c;
+ color: #fff;
+ }
+
+ .alien-group .group .caption{
+ background-color: #2faa64;
+ }
+ .alien-group .group .caption h4{
+ font-size: .6rem;
+ }
+
+ .alien-group .group .caption h1{
+ font-size: .9rem;
+ }
+
+ .freeze-group .group .caption{
+ background-color: #d3dde5;
+ }
+
+ .freeze-group .group .caption h4{
+ background-color: #d3dde5;
+ font-size: .6rem;
+ }
+ .gasmask-group .group .caption{
+ background-color: #595d60;
+ color: #fff;
+ }
+
+ .gasmask-group .group .caption h4{
+ background-color: #595d60;
+ color: #fff;
+ font-size: .7rem;
+ }
+ .gasmask-group .group .caption h1{
+ font-size: 1rem;
+ }
+
+
+ .special-group .group .caption{
+ background-color: red;
+ }
+
+
+
+
+
+/* NOTE: ALIEN GROUP STYLES */
+.alien-group{
+display: flex;
+flex-wrap: wrap;
+font-family: 'Audiowide', cursive;
+width: 100%;
+
+}
+
+/* NOTE: FREEZE GROUP STYLES  */
+.freeze-group{
+color: #dce8f4;
+display: flex;
+flex-wrap: wrap;
+font-family: 'Baloo Paaji', cursive;
+}
+
+/* NOTE: GAS MASK GROUP STYLES */
+.gasmask-group{
+color: grey;
+display: flex;
+flex-wrap: wrap;
+color:#595d60;
+font-family: 'Bungee', cursive;
+}
+
+/* NOTE: SPECIAL GROUP STYLES  */
+.special-group{
+color: red;
+display: flex;
+flex-wrap: wrap;
+font-family: 'Monoton', cursive;
+}
+
+.strain-name{
+	border-bottom: 2px solid black;
+}
+
+/* NOTE: KOFFFFFEEEE BUTTTON */
+.koffee{
+	font-family: 'Patua One', cursive;
+}
+
+.koffee:hover{
+	font-family: 'Patua One', cursive;
+	background-color: #724013;
+	height: 100%;
+	color: #fff;
+}
+
+/* NOTE: ALIEN BUTTON */
+.alien{
+	font-family: 'Audiowide', cursive;
+}
+
+.alien:hover{
+	font-family: 'Audiowide', cursive;
+	background-color:#49c680;
+}
+
+/* NOTE: FREEZE BUTTON */
+.freeze{
+	font-family: 'Baloo Paaji', cursive;
+}
+
+.freeze:hover{
+	font-family: 'Baloo Paaji', cursive;
+	background-color: #f7fbff;
+}
+/* NOTE: GAS MASK BUTTON */
+.gasmask{
+	font-family: 'Bungee', cursive;
+}
+
+.gasmask:hover{
+	font-family: 'Bungee', cursive;
+	background-color:#35383a;
+	color: #fff;
+}
+
+/* NOTE: SPECIAL BUTTON */
+.special{
+	font-family: 'Monoton', cursive;
+
+}
+
+.seedlines .special h1{
+	font-size: .6rem;
+	width: auto;
+}
+
+.special:hover{
+	font-family: 'Monoton', cursive;
+	background-color:red;
+
+}
+
+/* NOTE: TERPENE HEADER SECTION WITH TITLE AND DESCRIPTION */
+#terpenes{
+text-align: center;
+	background-color: #000;
+	color:#fff;
+	padding-top: 180px;
+}
+
+.svg-terps{
+height: 100px;
+}
+
+.terpene-about-heading{
+	text-align: center;
+	font-size: 2rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	border-top: 1px solid #fff;
+	padding: 10px;
+}
+
+.terpene-about-description{
+width: 50%;
+display: flex;
+flex-direction: column;
+padding: 2px;
+}
+
+.terpene-about-heading img{
+	height:50px;
+}
+
+.terpene-about-description h4{
+color:red;
+text-align: center;
+margin-bottom: 10px;
+font-size: 1rem;
+margin: 10px;
+}
+
+.terpene-paragraph p{
+font-size: .8rem;
+line-height: 1.4em;
+text-align: left;
+color: #000;
+padding: 5px;
+}
+
+
+
+.terpene-about{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+/* NOTE: outer setion */
+	.terpenes-section {
+		padding: 0px;
+		height: 100%;
+		}
+
+		.container{
+			width: 100%;
+			display: flex;
+			align-content: flex-start;
+		}
+
+	.terpene-row{
+		display: flex;
+		align-items:baseline;
+		flex-wrap: wrap;
+		padding: 20px;
+	}
+/* NOTE: inner each one */
+	.terpene-item{
+		padding: 0px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.terpene-inner{
+		display: flex;
+		flex-direction: column;
+	margin: 5px;
+	font-family: 'Ubuntu', sans-serif;
+	}
+
+	.terpene-inner-item{
+		padding: 0px;
+	}
+
+	.terpene-name{
+		border-bottom: 2px solid #000;
+		padding-bottom: 3px;
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		height: 40px;
+		align-items: center;
+		font-family: 'Righteous', cursive;
+		font-size: 1rem;
+	}
+
+	.terpene-name span{
+		font-size: .7rem;
+	}
+
+	.notes h3{
+		font-size: .5rem;
+		color:gray;
+	}
+
+	.terpene-aromas{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0px;
+
+	width: 100%;
+	}
+
+	.aroma{
+		display: flex;
+		flex-direction: column;
+		width: 50%;
+
+	}
+
+	.aroma img{
+		width: 100%;
+		height: 100%;
+		padding: 10px;
+
+	}
+
+	.aroma h2{
+		font-size: .5rem;
+		text-align: center;
+	}
+
+	.terpene-effects{
+		margin:  5px;
+		background-color: #fff;
+		line-height: 1em;
+	}
+
+	.terpene-inner-item ul{
+		list-style:none;
+		font-size: .7rem;
+		text-align: center;
+
+	}
+
+	.terpene-inner-item ul{
+		list-style:none;
+		font-size: .7rem;
+		text-align: left;
+
+	}
+
+.caryophylene .terpene-name{
+	background-color:orange;
+}
+.limonene .terpene-name {
+	background-color:#F5D327;
+}
+.linalol .terpene-name{
+	background-color: #ec0aac;
+}
+.myrcene .terpene-name{
+	background-color: #1767b8;
+	color:#fff;
+}
+.humulene .terpene-name{
+	background-color: #be5b0c;
+	color:#fff;
+}
+.pinene .terpene-name{
+	background-color: #18401b;
+	color:#fff;
+}
+/* NOTE: FOOOOOOOOOOOOOOOOOOOOTTTTTTEEEEEEEERRRRRR */
+#contact{
+	background-color: #000;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: center;
+}
+
+.footer-contact{
+	height: 180px;
+display: flex;
+	font-family: 'Ubuntu', sans-serif;
+	justify-content: center;
+	background-color: #000;
+	padding: 20px;
+}
+.footer-contact .row{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-between;}
+
+.footer-contact h1{
+	color: #fff;
+	font-size: .8rem;
+}
+.footer-contact i{
+	color: #fff;
+margin-bottom: 20px;
+	text-align: center;
+}
+.footer-contact i:hover{
+	color: red;
+}
+.instagram{
+	display: flex;
+	flex-direction: column;
+}
+
+.instagram h1{
+	margin-left: -50px;
+}
+
+.carousel-caption{
+	padding: 0px;
+	margin: 0px;
+	right:40%;
+	left:60%;
+	top:10%;
+	width: 20%;;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
+
+.carousel-caption .mc-field-group label{
+
+	padding-bottom:  10px;
+}
+
+.carousel-caption .mc-field-group input{
+border: 2px solid #000;
+	background-color: #fff;
+}
+
+.carousel-caption input{
+	color:#000;
+}
+
+#mce-EMAIL{
+	width: 100%;
+}
+
+.mc-field-group{color:#fff;
+padding: 5px;}
